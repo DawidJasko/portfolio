@@ -1,0 +1,11 @@
+.navbarContainer {
+  background-color: aqua;
+}
+header {
+  background-color: beige;
+  color: blue;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
