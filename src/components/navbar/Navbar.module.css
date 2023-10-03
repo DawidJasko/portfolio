@@ -1,11 +1,22 @@
 .navbarContainer {
-  background-color: aqua;
+  background-color: rgb(6, 18, 18);
 }
 header {
-  background-color: beige;
-  color: blue;
+  background-color: rgb(68, 68, 67);
+  color: rgb(221, 221, 224);
 }
 a {
-  color: black;
+  color: rgb(238, 228, 228);
   text-decoration: none;
+}
+ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  text-decoration: none;
+  list-style-type: none;
+}
+li {
+  width: 10%;
+  margin: 10px;
 }
