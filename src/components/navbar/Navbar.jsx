@@ -8,7 +8,7 @@ const Navbar = () => {
         <nav>
           <ul className={styles.ul}>
             <li className={styles.li}>
-              <a hrev="#Home">Home</a>
+              <a hrev="styles.welcomeSection">Home</a>
             </li>
             <li className={styles.li}>
               <a hrev="#">About</a>
@@ -20,13 +20,17 @@ const Navbar = () => {
               <a hrev="#">Contact</a>
             </li>
           </ul>
-          <div class="empty"></div>
-          <section id="welcome-section">
-            <h1 class="welcome-h1">Hey I am Mimic</h1>
-            <h2 class="welcome-h2">a web developer</h2>
-          </section>
         </nav>
       </header>
+      <div class={styles.empty}></div>
+      <section id={styles.welcomeSection}>
+        <h1 class={styles.welcomeH1}>Hey I am Dawid</h1>
+        <h2 class="welcome-h2"></h2>
+      </section>
+      <section id={styles.welcomeSection2}>
+        <h1 class="welcome-h1">Hey I am Dawid</h1>
+        <h2 class="welcome-h2"></h2>
+      </section>
     </div>
   );
 };
