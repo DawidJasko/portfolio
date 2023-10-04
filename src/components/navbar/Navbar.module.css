@@ -37,7 +37,7 @@ li {
   /* background: linear-gradient(45deg, #393a3a, #232526); */
   background-color: red;
 }
-#welcomeSection {
+.welcomeSection {
   width: 100vw;
   height: calc(100vh - 40px);
   /* height: 100vh; */
@@ -48,7 +48,7 @@ li {
   justify-content: center;
   color: white;
   }
-  #welcomeSection2 {
+  .welcomeSection2 {
     width: 100vw;
     height: calc(100vh - 40px);
     /* height: 100vh; */
