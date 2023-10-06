@@ -13,7 +13,7 @@ const Navbar = () => {
                 to="home"
                 spy={true}
                 smooth={true}
-                offset={50}
+                offset={-40}
                 duration={500}
               >
                 Home
@@ -27,7 +27,7 @@ const Navbar = () => {
                 offset={50}
                 duration={500}
               >
-                Home
+                About
               </Link>
             </li>
             <li className={styles.li}>
@@ -44,7 +44,7 @@ const Navbar = () => {
         <h1 class={styles.welcomeH1}>Hey I am Dawid</h1>
         <h2 class="welcome-h2"></h2>
       </section>
-      <section id="About" class={styles.welcomeSection2}>
+      <section id="about" class={styles.welcomeSection2}>
         <h1 class="welcome-h1">Hey I am Dawid</h1>
         <h2 class="welcome-h2"></h2>
       </section>
