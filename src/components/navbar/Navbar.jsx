@@ -10,6 +10,7 @@ const Navbar = () => {
           <ul className={styles.ul}>
             <li className={styles.li}>
               <Link
+                className={styles.link}
                 to="home"
                 spy={true}
                 smooth={true}
@@ -21,6 +22,7 @@ const Navbar = () => {
             </li>
             <li className={styles.li}>
               <Link
+              className={styles.link}
                 to="about"
                 spy={true}
                 smooth={true}
@@ -31,10 +33,28 @@ const Navbar = () => {
               </Link>
             </li>
             <li className={styles.li}>
-              <a hrev="#">Project</a>
+              <Link
+                className={styles.link}
+                to="project"
+                spy={true}
+                smooth={true}
+                offset={-40}
+                duration={500}
+              >
+                Project
+              </Link>
             </li>
             <li className={styles.li}>
-              <a hrev="#">Contact</a>
+              <Link
+                className={styles.link}
+                to="contact"
+                spy={true}
+                smooth={true}
+                offset={-40}
+                duration={500}
+              >
+                Contact
+              </Link>
             </li>
           </ul>
         </nav>
