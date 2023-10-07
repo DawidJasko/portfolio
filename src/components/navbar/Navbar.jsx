@@ -40,14 +40,6 @@ const Navbar = () => {
         </nav>
       </header>
       <div class={styles.empty}></div>
-      <section id="home" class={styles.welcomeSection}>
-        <h1 class={styles.welcomeH1}>Hey I am Dawid</h1>
-        <h2 class="welcome-h2"></h2>
-      </section>
-      <section id="about" class={styles.welcomeSection2}>
-        <h1 class="welcome-h1">Hey I am Dawid</h1>
-        <h2 class="welcome-h2"></h2>
-      </section>
     </div>
   );
 };

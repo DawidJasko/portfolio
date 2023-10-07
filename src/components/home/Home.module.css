@@ -1,0 +1,25 @@
+.welcomeSection {
+  width: 100vw;
+  height: calc(100vh - 40px);
+  /* height: 100vh; */
+  background: linear-gradient(45deg, #393a3a, #232526);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  }
+  .welcomeSection2 {
+    width: 100vw;
+    height: calc(100vh - 40px);
+    /* height: 100vh; */
+    background: green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+    .welcomeH1 {
+      font-size: 50px;
+      color: FloralWhite;
+    }
