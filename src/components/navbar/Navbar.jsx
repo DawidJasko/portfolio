@@ -22,7 +22,7 @@ const Navbar = () => {
             </li>
             <li className={styles.li}>
               <Link
-              className={styles.link}
+                className={styles.link}
                 to="about"
                 spy={true}
                 smooth={true}
