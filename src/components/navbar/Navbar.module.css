@@ -1,12 +1,14 @@
 * {
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
-nav {
-  background-color: rgb(68, 68, 67);
-  color: rgb(221, 221, 224);
+#navbar {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(226, 226, 77);
+  color: rgb(182, 236, 34);
   width: 100vw;
   height: 40px;
   position: fixed;
@@ -26,7 +28,7 @@ nav {
 .link:hover {
   background-color: rgb(233, 134, 134);
 }
-ul {
+.ulContainer {
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -47,4 +49,21 @@ li {
   width: 100%;
   /* background: linear-gradient(45deg, #393a3a, #232526); */
   background-color: red;
+}
+.logo {
+  display: flex;
+  background-color: aqua;
+  width: 10vw;
+}
+.logoH2 {
+  display: flex;
+  color: red;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.ulnavbar {
+  display: flex;
+  background-color: blue;
+  width: 90vw;
 }
