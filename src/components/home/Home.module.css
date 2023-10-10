@@ -13,3 +13,16 @@
   font-size: 50px;
   color: FloralWhite;
 }
+.typeWriter {
+  font-weight: bold;
+  color: rgb(243, 45, 45);
+}
+.typeWriterP {
+  margin-right: 8px;
+}
+
+.homeH2 {
+  display: flex;
+  /* background-color: red; */
+  width: 270px;
+}
