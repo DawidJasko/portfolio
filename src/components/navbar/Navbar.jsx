@@ -10,9 +10,9 @@ const Navbar = () => {
       </div>
       <div className={styles.ulnavbar}>
         <ul className={styles.ulContainer}>
-          <li className={styles.li}>
+          <li className={styles.linavbar}>
             <Link
-              className={styles.link}
+              className={styles.linknavbar}
               to="home"
               spy={true}
               smooth={true}
@@ -22,9 +22,9 @@ const Navbar = () => {
               Home
             </Link>
           </li>
-          <li className={styles.li}>
+          <li className={styles.linavbar}>
             <Link
-              className={styles.link}
+              className={styles.linknavbar}
               to="about"
               spy={true}
               smooth={true}
@@ -34,9 +34,9 @@ const Navbar = () => {
               About
             </Link>
           </li>
-          <li className={styles.li}>
+          <li className={styles.linavbar}>
             <Link
-              className={styles.link}
+              className={styles.linknavbar}
               to="project"
               spy={true}
               smooth={true}
@@ -46,9 +46,9 @@ const Navbar = () => {
               Project
             </Link>
           </li>
-          <li className={styles.li}>
+          <li className={styles.linavbar}>
             <Link
-              className={styles.link}
+              className={styles.linknavbar}
               to="contact"
               spy={true}
               smooth={true}

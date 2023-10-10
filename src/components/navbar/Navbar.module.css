@@ -14,16 +14,18 @@
   position: fixed;
 }
 
-.link {
+.linknavbar {
   display: flex;
   color: rgb(238, 228, 228);
   text-decoration: none;
   cursor: pointer;
-  padding: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
   justify-content: center;
   align-items: center;
   height: 100%;
   width: 100%;
+  background-color: brown;
 }
 .link:hover {
   background-color: rgb(233, 134, 134);
@@ -35,12 +37,14 @@
   text-decoration: none;
   list-style-type: none;
   height: 100%;
+  background-color: blueviolet;
+  width: 90vw;
 }
-li {
+.linavbar {
+  display: flex;
   height: 100%;
   width: 10%;
   padding-right: 20px;
-  display: flex;
   justify-content: center;
   align-items: center;
 }
