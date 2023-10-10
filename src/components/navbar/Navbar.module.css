@@ -7,8 +7,6 @@
 #navbar {
   display: flex;
   flex-direction: row;
-  background-color: rgb(226, 226, 77);
-  color: rgb(182, 236, 34);
   width: 100vw;
   height: 40px;
   position: fixed;
@@ -25,9 +23,8 @@
   align-items: center;
   height: 100%;
   width: 100%;
-  background-color: brown;
 }
-.link:hover {
+.linknavbar:hover {
   background-color: rgb(233, 134, 134);
 }
 .ulContainer {
@@ -37,7 +34,7 @@
   text-decoration: none;
   list-style-type: none;
   height: 100%;
-  background-color: blueviolet;
+  background: linear-gradient(45deg, #393a3a, #232526);
   width: 90vw;
 }
 .linavbar {
@@ -56,12 +53,13 @@
 }
 .logo {
   display: flex;
-  background-color: aqua;
+  background-color: #393a3a;
+  letter-spacing: 1px;
   width: 10vw;
 }
 .logoH2 {
   display: flex;
-  color: red;
+  color: FloralWhite;
   align-items: center;
   justify-content: center;
   margin: auto;

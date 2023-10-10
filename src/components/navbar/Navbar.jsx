@@ -60,7 +60,7 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-      {/* <div class={styles.empty}></div> */}
+      {/* <div class={styles.empty}></div>  */}
     </nav>
   );
 };

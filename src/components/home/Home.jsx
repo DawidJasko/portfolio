@@ -9,6 +9,7 @@ const Home = () => {
   };
   return (
     <div id="home" className={styles.navbarContainer}>
+       <div class={styles.empty}></div> 
       <section id="home" class={styles.homeSection}>
         <h1 class={styles.homeH1}>Dawid Jaśko</h1>
         <h2 class={styles.homeH2}>
