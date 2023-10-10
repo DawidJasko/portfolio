@@ -4,7 +4,7 @@ import Typewriter from 'typewriter-effect';
 
 const Home = () => {
   const { text } = {
-    words: ['developer', 'bodybulider', 'Enginer'],
+    words: ['developer ', 'bodybuilder', 'engineer', 'guitarist'],
     loop: {},
   };
   return (
