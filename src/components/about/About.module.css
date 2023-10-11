@@ -59,7 +59,7 @@
   height: 300px;
   background-color: brown;
 }
-p {
+.aboutdescriptionp {
   margin: auto;
   text-align: justify;
   color: aliceblue;
@@ -72,3 +72,9 @@ p {
   margin: auto;
   border-radius: 50%;
 }
+.skilsp {
+  margin: auto;
+  text-align: justify;
+  color: aliceblue;
+}
+
