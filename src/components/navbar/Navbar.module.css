@@ -26,6 +26,8 @@
 }
 .linknavbar:hover {
   background-color: rgb(233, 134, 134);
+  font-size: larger;
+  font-weight: bold;
 }
 .ulContainer {
   display: flex;
@@ -44,12 +46,6 @@
   padding-right: 20px;
   justify-content: center;
   align-items: center;
-}
-.empty {
-  height: 40px;
-  width: 100%;
-  /* background: linear-gradient(45deg, #393a3a, #232526); */
-  background-color: red;
 }
 .logo {
   display: flex;
