@@ -3,13 +3,9 @@ import styles from './Home.module.css';
 import Typewriter from 'typewriter-effect';
 
 const Home = () => {
-  const { text } = {
-    words: ['developer ', 'bodybuilder', 'engineer', 'guitarist'],
-    loop: {},
-  };
   return (
     <div id="home" className={styles.navbarContainer}>
-       <div class={styles.empty}></div> 
+      <div class={styles.empty}></div>
       <section id="home" class={styles.homeSection}>
         <h1 class={styles.homeH1}>Dawid Jaśko</h1>
         <h2 class={styles.homeH2}>
@@ -17,7 +13,12 @@ const Home = () => {
           <div className={styles.typeWriter}>
             <Typewriter
               options={{
-                strings: [' Enginer', ' bodybulider', ' developer'],
+                strings: [
+                  ' enginer',
+                  ' bodybulider',
+                  ' developer',
+                  'guitarist',
+                ],
                 autoStart: true,
                 loop: true,
               }}
