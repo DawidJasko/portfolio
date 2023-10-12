@@ -13,6 +13,7 @@
     "eject": "react-scripts eject"
   },
   "dependencies": {
+    "@react-spring/parallax": "^9.7.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-plx": "^2.1.2",
