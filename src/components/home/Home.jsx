@@ -9,6 +9,8 @@ const Home = () => {
     <div id="home" className={styles.navbarContainer}>
       <div class={styles.empty}></div>
       <section id="home" class={styles.homeSection}>
+        <div className={styles.line}></div>
+        <div className={styles.dot}></div>
         <h1 class={styles.homeH1}>Dawid Jaśko</h1>
         <h2 class={styles.homeH2}>
           <p className={styles.typeWriterP}>I'm </p>
