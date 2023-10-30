@@ -5,7 +5,8 @@ const Contact = () => {
   return (
     <div id="home" className={styles.navbarContainer}>
       <section id="contact" class={styles.contactSection}>
-        <h1 class={styles.contactH1}>Contact</h1>
+        {/* <h1 class={styles.contactH1}></h1> */}
+        <div className={styles.conempty}></div>
         <div className={styles.conline}>
           <div className={styles.conclass}>
             <p className={styles.concode}>
