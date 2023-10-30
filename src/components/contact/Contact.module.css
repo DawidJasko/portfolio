@@ -25,3 +25,9 @@
   width: 100px;
   height: 100px;
 }
+.spanbludark {
+  color: rgb(3, 116, 209);
+}
+.spanwhite {
+  color: FloralWhite;
+}

@@ -10,8 +10,10 @@ const Contact = () => {
         <div className={styles.conline}>
           <div className={styles.conclass}>
             <p className={styles.concode}>
-              const <span className={styles.spandawid}> Dawid Jaśko</span>
-              &#8194; &#61;&#8194;&#40;&#8201;&#41;&#8194;&#61;&#62; &#123;
+            <span className={styles.spanbludark}>const </span> <span className={styles.spandawid}> Dawid Jaśko</span>
+            <span className={styles.spanwhite}>
+                &#8194; &#61;&#8194;&#40;&#8201;&#41;&#8194;</span>
+                <span className={styles.spanbludark}>&#61;&#62;</span><span className={styles.spanwhite}> &#123;</span>
               <br />
               &#160; useState&#40;&#8201;&#41;&#8194; &#123; <br />
               &#160; this.name = 'Dawid Jaśko' <br />
@@ -33,12 +35,12 @@ const Contact = () => {
               &#125;
               <br />
               &#160;skills&#40;&#8201;&#41;&#8194; &#123; <br />
-              &#160; <span className={styles.conreturn}> return</span>&#8194; &#91;
+              &#160; <span className={styles.conreturn}> return</span><span className={styles.spanwhite}>&#8194; &#91;</span>
               <br />
               &#8194;html itd
               <br />
-              &#8194;&#93;<br/>
-              &#125;
+              <span className={styles.spanwhite}> &#8194;&#93;<br/></span>
+              <span className={styles.spanwhite}> &#125;</span>
               <br />
             </p>
           </div>
