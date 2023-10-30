@@ -19,21 +19,10 @@ const Navbar = () => {
               offset={-40}
               duration={500}
             >
-              Home
+              &#60;&#8201;Start&#8201;&#47;&#62;
             </Link>
           </li>
-          <li className={styles.linavbar}>
-            <Link
-              className={styles.linknavbar}
-              to="about"
-              spy={true}
-              smooth={true}
-              offset={-40}
-              duration={500}
-            >
-              About
-            </Link>
-          </li>
+          
           <li className={styles.linavbar}>
             <Link
               className={styles.linknavbar}
@@ -43,7 +32,19 @@ const Navbar = () => {
               offset={-40}
               duration={500}
             >
-              Project
+              &#60;&#8201;Project&#8201;&#47;&#62;
+            </Link>
+          </li>
+          <li className={styles.linavbar}>
+            <Link
+              className={styles.linknavbar}
+              to="aboutme"
+              spy={true}
+              smooth={true}
+              offset={-40}
+              duration={500}
+            >
+              &#60;&#8201;About&#8201;&#47;&#62;
             </Link>
           </li>
           <li className={styles.linavbar}>
@@ -55,7 +56,7 @@ const Navbar = () => {
               offset={-40}
               duration={500}
             >
-              Contact
+              &#60;&#8201;Contact&#8201;&#47;&#62;
             </Link>
           </li>
         </ul>

@@ -1,5 +1,6 @@
 import './App.css';
 import About from './components/about/About';
+import Aboutme from './components/aboutme/Aboutme';
 import Contact from './components/contact/Contact';
 import Home from './components/home/Home';
 import Navbar from './components/navbar/Navbar';
@@ -14,8 +15,8 @@ function App() {
       {/* <Parallax pages={5} ref={ref}> */}
       <Navbar />
       <Home />
-      <About />
       <Project />
+      <Aboutme />
       <Contact />
       {/* </Parallax> */}
     </>
