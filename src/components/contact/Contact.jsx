@@ -8,11 +8,11 @@ const Contact = () => {
       <h1 class={styles.contactH1}>Contact</h1>
         <div className={styles.conline}>
           <div className={styles.conclass}>
-          <p>const Dawid Jaśko&#8194; &#61;&#8194;&#40;&#8201;&#41;&#8194;&#61;&#62; &#123;<br/>
+          <p className={styles.concode}>const <span className={styles.spandawid}> Dawid Jaśko</span>&#8194; &#61;&#8194;&#40;&#8201;&#41;&#8194;&#61;&#62; &#123;<br/>
           &#160; useState&#40;&#8201;&#41;&#8194; 
              &#123; <br/>
-             &#160; this.name = Dawid Jaśko <br/>
-             &#160; this.mail = dawidjasko98@wp.pl
+             &#160; this.name = 'Dawid Jaśko' <br/>
+             &#160; this.mail = 'dawidjasko98@wp.pl'
              &#160; &#160;<br/> &#125;<br/>
              &#160; workExperiens&#40;&#8201;&#41;&#8194; 
              &#123; <br/>
