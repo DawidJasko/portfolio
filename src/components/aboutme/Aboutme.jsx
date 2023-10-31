@@ -4,8 +4,8 @@ import styles from './Aboutme.module.css';
 const Aboutme = () => {
   return (
     <div id="home" className={styles.navbarContainer}>
-      <section id="aboutme" class={styles.contactSection}>
-        {/* <h1 class={styles.contactH1}></h1> */}
+      <section id="aboutme" class={styles.aboutmeSection}>
+        {/* <h1 class={styles.aboutmeH1}></h1> */}
         <div className={styles.conempty}></div>
         <div className={styles.conline}>
           <div className={styles.conclass}>

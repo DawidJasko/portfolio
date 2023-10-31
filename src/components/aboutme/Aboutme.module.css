@@ -1,4 +1,4 @@
-.contactSection {
+.aboutmeSection {
   width: 100vw;
   height: calc(100vh - 40px);
   /* height: 100vh; */
@@ -8,7 +8,7 @@
   align-items: center;
   color: white;
 }
-.contactH1 {
+.aboutmeH1 {
   font-size: 50px;
   color: FloralWhite;
 }
